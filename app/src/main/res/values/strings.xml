@@ -1,0 +1,136 @@
+<resources>
+    MOBILE APP WRAPPED
+    <string name="app_name">Utility App</string>
+    <string name="nav_header_title">Utility App</string>
+    <string name="nav_header_subtitle">Everything you need, in one app."</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+
+    BMI
+    <string name="underweight">Underweight</string>
+    <string name="normal_weight">Normal Weight</string>
+    <string name="overweight">Overweight</string>
+    <string name="obesity">Obese</string>
+    <string name="bmi_value">BMI value: %.2f</string>
+
+    <string name="weight">Weight (in kilograms)</string>
+    <string name="height">Height (in centimetres)</string>
+    <string name="buttonInstruction">Tap To Calculate BMI</string>
+    <string name="resetInstruction">Reset</string>
+    <string name="exit"><b>EXIT</b></string>
+    <string name="menu_bmi">BMI Calculator</string>
+    <string name="fab">EMAIL</string>
+    <string name="view_records">View Records</string>
+    <string name="clear_records">Clear Records</string>
+
+    CAMERA APP
+    <string name="cameraLabel">CAMERA DEMO</string>
+    <string name="imageViewDescription">Picture taken is displayed here</string>
+    <string name="takePic">Take Photo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_camera">Camera</string>
+    <string name="view_images">View Images</string>
+
+    INTENT
+    <string name="openBrowser">Open Browser</string>
+    <string name="discountCalculator">Discount Calculator</string>
+    <string name="price">Price</string>
+    <string name="discount">Discount %</string>
+    <string name="discountBTN">Find Discount</string>
+    <string name="discountInstruction">Discount Rate</string>
+    <string name="priceInstruction">Original Price</string>
+    <string name="back">Back</string>
+    <string name="webpageInstruction">Website Address (example.com)</string>
+    <string name="btnOpenWebpage">Open in browser</string>
+
+    POWER
+    <string name="power">Power Consumption Calculator</string>
+    <string name="powerCalc">Power</string>
+    <string name="nameLabel">Customer Name</string>
+    <string name="previousLabel">Previous Meter Reading</string>
+    <string name="currentLabel">Current Meter Reading</string>
+    <string name="totalAmount">Total Amount : GH₵ </string>
+    <string name="category">Category : </string>
+    <string name="electricityUsed">Consumption : </string>
+    <string name="customerName">Customer Name : </string>
+    <string name="billNormal">Bill : </string>
+    <string name="tax2percent">2% Tax : </string>
+
+    <string name="getInfo">Calculate Bill</string>
+    <string name="nameInstruction">Enter your name</string>
+    <string name="previousInstruction">Enter previous meter reading</string>
+    <string name="currentInstruction">Enter current meter reading</string>
+
+    <string name="domestic">Category: Domestic</string>
+    <string name="industrial">Category: Industrial</string>
+    <string name="commercial">Category: Commercial</string>
+
+    CALCULATOR
+    <string name="calculator">Simple Calculator</string>
+    <string name="simpleCalculator">Calculator</string>
+    <string name="default_result">0</string>
+
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+
+    <string name="button_clear">C</string>
+    <string name="button_ac">AC</string>
+
+    <string name="button_open_bracket">(</string>
+    <string name="button_close_bracket">)</string>
+    <string name="button_divide">/</string>
+    <string name="button_multiply">*</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="button_equals">=</string>
+    <string name="button_dot">.</string>
+
+    SIM Toolkit
+    <string name="short_codes">MTN Short Codes</string>
+    <string name="checkBalance">Check Balance</string>
+    <string name="momo">MoMo Menu</string>
+    <string name="dataBundle">Buy Data</string>
+    <string name="j4u">Just 4 You</string>
+    <string name="mashup">Mashup</string>
+
+    <string name="teleM4m">Made for Me</string>
+    <string name="teleBal">Data Balance</string>
+    <string name="teleCash">T-Cash</string>
+    <string name="teleRed">Red Offers</string>
+
+    TODO
+    <string name="todo">To Do</string>
+    <string name="task">Tasks</string>
+    <string name="floatingButton">Floating Btn to add task</string>
+    <string name="sample">This is a Sample Task</string>
+    <string name="new_task">New Task</string>
+    <string name="save">Save</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="progress">0/0 completed</string>
+    <string name="webapp">Web App</string>
+
+    REGISTRATION
+    <string name="full_name">Full Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="department">Department</string>
+    <string name="email_address">Email Address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="view_all">View All Records</string>
+    <string name="registration">Registration</string>
+    <string name="discountCalc">Discount Calc</string>
+    <string name="message">Message</string>
+    <string name="title">Title</string>
+    <string name="ok">OK</string>
+</resources>

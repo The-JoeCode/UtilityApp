@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackground"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/imageViewDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_menu_camera" />
+
+        <Button
+            android:id="@+id/takePhotoBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Saffron"
+            android:paddingVertical="15dp"
+            android:text="@string/takePic"
+            android:textColor="@color/DelftBlue"
+            app:icon="@drawable/ic_menu_camera" />
+        <Button
+            android:id="@+id/viewImagesBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/Saffron"
+            android:paddingVertical="15dp"
+            android:text="@string/view_images"
+            android:textColor="@color/DelftBlue"
+            app:icon="@drawable/ic_menu_gallery" />
+
+        <Button
+            android:id="@+id/backButton"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/Saffron"
+            android:padding="12dp"
+            android:text="@string/back"
+            android:textColor="@color/DelftBlue"
+            android:textSize="18sp"
+            app:icon="@drawable/arrow_back" />
+    </LinearLayout>
+</ScrollView>

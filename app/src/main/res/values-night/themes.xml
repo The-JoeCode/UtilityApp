@@ -1,0 +1,28 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MobileAppWrapped" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/DelftBlue</item>
+        <item name="colorSecondary">@color/Saffron</item>
+        <item name="colorOnPrimary">@color/sky_blue</item>
+        <item name="fontFamily">@font/ubuntu_regular</item>
+        <item name="customBackground">@drawable/bg_gradient_dark</item>
+        <item name="cardBackgroundColor">@color/sky_blue</item>
+    </style>
+
+    <style name="Theme.MobileAppWrapped.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+
+    <style name="Theme.MobileAppWrapped.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MobileAppWrapped.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:boxStrokeColor="?attr/colorOnPrimary"
+            app:cursorColor="?attr/colorOnPrimary"
+            app:endIconMode="clear_text"
+            app:hintTextColor="?attr/colorOnPrimary">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/urlInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/webpageInstruction"
+                android:inputType="textUri" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnOpenWebpage"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/btnOpenWebpage"
+            android:textColor="@color/DelftBlue"
+            android:textSize="18sp"
+            app:icon="@drawable/world" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/resetUrl"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/resetInstruction"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/restart" />
+
+            <Button
+                android:id="@+id/backButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/back"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/arrow_back" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

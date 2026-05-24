@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackground"
+    tools:context=".bmi.BMIFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:boxStrokeColor="?attr/colorOnPrimary"
+            app:cursorColor="?attr/colorOnPrimary"
+            app:endIconMode="clear_text"
+            app:hintTextColor="?attr/colorOnPrimary"
+            app:startIconDrawable="@drawable/height">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/height_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/height"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:boxStrokeColor="?attr/colorOnPrimary"
+            app:cursorColor="?attr/colorOnPrimary"
+            app:endIconMode="clear_text"
+            app:hintTextColor="?attr/colorOnPrimary"
+            app:startIconDrawable="@drawable/weight">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/weight_input"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/weight"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="18dp">
+
+            <TextView
+                android:id="@+id/bmiDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingVertical="8dp"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="?attr/colorOnPrimary"
+                tools:text="BMI Value" />
+
+            <TextView
+                android:id="@+id/weightShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="30dp"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="?attr/colorOnPrimary"
+                tools:text="Weight Category" />
+
+            <Button
+                android:id="@+id/calcBMI"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/buttonInstruction"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/calculate" />
+
+            <Button
+                android:id="@+id/viewRecordsBtn"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/view_records"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/clipboard" />
+
+            <Button
+                android:id="@+id/resetBMI"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/resetInstruction"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/restart" />
+
+            <Button
+                android:id="@+id/clearRecordsBtn"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/red"
+                android:text="@string/clear_records"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:icon="@drawable/cancel" />
+
+
+            <Button
+                android:id="@+id/backBtn"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/back"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/arrow_back" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

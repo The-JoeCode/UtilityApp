@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp"
+            app:boxStrokeColor="?attr/colorOnPrimary"
+            app:cursorColor="?attr/colorOnPrimary"
+            app:endIconMode="clear_text"
+            app:hintTextColor="?attr/colorOnPrimary"
+            app:startIconDrawable="@drawable/money">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/priceInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/priceInstruction"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:boxStrokeColor="?attr/colorOnPrimary"
+            app:cursorColor="?attr/colorOnPrimary"
+            app:endIconMode="clear_text"
+            app:hintTextColor="?attr/colorOnPrimary"
+            app:startIconDrawable="@drawable/ic_menu_discount">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/discountInput"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/discountInstruction"
+                android:inputType="numberDecimal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/discountValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="?attr/colorOnPrimary"
+            tools:text="Discount : 3435.65" />
+
+        <TextView
+            android:id="@+id/priceValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="?attr/colorOnPrimary"
+            tools:text="Discount : 3435.65" />
+
+        <Button
+            android:id="@+id/calcDiscount"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/discountBTN"
+            android:textColor="@color/DelftBlue"
+            android:textSize="18sp"
+            app:icon="@drawable/calculate" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="12dp">
+
+            <Button
+                android:id="@+id/resetInputs"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/resetInstruction"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/restart" />
+
+            <Button
+                android:id="@+id/backButton"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/Saffron"
+                android:text="@string/back"
+                android:textColor="@color/DelftBlue"
+                android:textSize="18sp"
+                app:icon="@drawable/arrow_back" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

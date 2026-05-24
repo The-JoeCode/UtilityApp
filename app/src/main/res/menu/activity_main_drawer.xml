@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/ic_menu_bmi"
+            android:title="@string/menu_bmi" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/nav_discount"
+            android:icon="@drawable/ic_menu_discount"
+            android:title="@string/discountCalculator" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@drawable/world"
+            android:title="@string/openBrowser" />
+<!--        <item-->
+<!--            android:id="@+id/nav_power"-->
+<!--            android:icon="@drawable/bolt"-->
+<!--            android:title="@string/power" />-->
+        <item
+            android:id="@+id/nav_toolkit"
+            android:icon="@drawable/phone"
+            android:title="@string/short_codes" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculate"
+            android:title="@string/calculator" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/clipboard"
+            android:title="@string/todo" />
+        <item
+            android:id="@+id/nav_webapp"
+            android:icon="@drawable/world"
+            android:title="@string/webapp" />
+<!--        <item-->
+<!--            android:id="@+id/nav_registration"-->
+<!--            android:icon="@drawable/register"-->
+<!--            android:title="@string/registration" />-->
+    </group>
+</menu>

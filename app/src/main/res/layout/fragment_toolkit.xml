@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackground"
+    android:padding="24dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/momoBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/momo"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/balanceBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/checkBalance"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/dataBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/dataBundle"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/just4you"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/j4u"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/mashup"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Saffron"
+            android:text="@string/mashup"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <!--        <Button-->
+        <!--            android:id="@+id/teleCashBtn"-->
+        <!--            style="?android:attr/buttonBarButtonStyle"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:backgroundTint="@color/red"-->
+        <!--            android:text="@string/teleCash"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/teleBalanceBtn"-->
+        <!--            style="?android:attr/buttonBarButtonStyle"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:backgroundTint="@color/red"-->
+        <!--            android:text="@string/teleBal"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/teleRedOffers"-->
+        <!--            style="?android:attr/buttonBarButtonStyle"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:backgroundTint="@color/red"-->
+        <!--            android:text="@string/teleRed"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/teleM4mBtn"-->
+        <!--            style="?android:attr/buttonBarButtonStyle"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_columnWeight="1"-->
+        <!--            android:layout_margin="8dp"-->
+        <!--            android:backgroundTint="@color/red"-->
+        <!--            android:text="@string/teleM4m"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="18sp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/backBtn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:icon="@drawable/arrow_back" />
+    </GridLayout>
+</ScrollView>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mobileappwrapped.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.mobileappwrapped.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.example.mobileappwrapped.CalculatorFragment"
+        android:label="@string/calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_bmi"
+        android:name="com.example.mobileappwrapped.bmi.BMIFragment"
+        android:label="@string/menu_bmi"
+        tools:layout="@layout/fragment_bmi" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.example.mobileappwrapped.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_discount"
+        android:name="com.example.mobileappwrapped.DiscountFragment"
+        android:label="@string/discountCalculator"
+        tools:layout="@layout/fragment_discount" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="com.example.mobileappwrapped.BrowserFragment"
+        android:label="@string/openBrowser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_power"
+        android:name="com.example.mobileappwrapped.power.PowerFragment"
+        android:label="@string/power"
+        tools:layout="@layout/fragment_power" />
+    <fragment
+        android:id="@+id/nav_toolkit"
+        android:name="com.example.mobileappwrapped.ToolkitFragment"
+        android:label="@string/short_codes"
+        tools:layout="@layout/fragment_toolkit" />
+    <fragment
+        android:id="@+id/nav_todo"
+        android:name="com.example.mobileappwrapped.todo.ToDoFragment"
+        android:label="@string/todo"
+        tools:layout="@layout/fragment_todo" />
+    <fragment
+        android:id="@+id/nav_webapp"
+        android:name="com.example.mobileappwrapped.WebAppFragment"
+        android:label="@string/webapp"
+        tools:layout="@layout/fragment_web_app" />
+    <fragment
+        android:id="@+id/nav_registration"
+        android:name="com.example.mobileappwrapped.registration.RegistrationFragment"
+        android:label="@string/registration"
+        tools:layout="@layout/fragment_registration" />
+</navigation>
