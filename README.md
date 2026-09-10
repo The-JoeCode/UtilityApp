@@ -50,5 +50,3 @@ Contributions are welcome! If you have ideas for new utilities or improvements, 
 For license information, please check the LICENSE file in this repository.
 
 ---
-
-Made with ❤️ by The-JoeCode
